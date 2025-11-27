@@ -1,4 +1,5 @@
 <html>
+	<title>Salesforce Inapp message</title>
 <body>
 <script type='text/javascript'>
 function initEmbeddedMessaging() {
