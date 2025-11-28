@@ -8,13 +8,14 @@ function initEmbeddedMessaging() {
 
 		window.addEventListener("onEmbeddedMessagingReady", e => {
 		    embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields({
-		        _firstName: "Inba"
+		        "_firstName": "Inba"
 				/*_lastName: "Raj",
 				_email: "inba@gmail.com",
 				_subject: "Test prechat default values."*/
 		    });
 		});
 
+		
 		embeddedservice_bootstrap.init(
 			'00DSK0000000wbt',
 			'InApp_Messaging',
