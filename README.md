@@ -24,7 +24,7 @@
 			        "_lastName": "Raj",
 			        "_email": "inba@gmail.com",
 			        "_subject": "Test prechat default values.",
-					"Client_Type": "Test clienttype",	
+					"Client_Type": "Homebuyer_Homeowner_or_Renter",	
 					"FHA_Case_No":"7894561230",
 					"Phone": "7418523698"
 			    });
