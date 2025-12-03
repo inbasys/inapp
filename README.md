@@ -20,8 +20,8 @@
 			    
 			    // Set hidden pre-chat fields using API names with underscores
 			    embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields({
-			        "Firstname": "Inba",  // Use the API names with underscores
-			        "Lastname": "Raj",
+			        "First_Name": "Inba",  // Use the API names with underscores
+			        "Last_Name": "Raj",
 			        "Email": "inba@gmail.com",
 			        "Subject": "Test prechat default values.",
 					"Client_Type": "Homebuyer, Homeowner, or Renter",	
@@ -30,10 +30,10 @@
 			    });
 
 			    console.log("Prechat fields set:", {
-			        "_FirstName": "Inba",
-			        "_LastName": "Raj",
-			        "_Email": "inba@gmail.com",
-			        "_Subject": "Test prechat default values.",
+			        "First_Name": "Inba",
+			        "Last_Name": "Raj",
+			        "Email": "inba@gmail.com",
+			        "Subject": "Test prechat default values.",
 					"Client_Type": "Test clienttype",	
 					"FHA_Case_No":"7894561230",
 					"Phone": "7418523698"
