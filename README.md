@@ -17,18 +17,20 @@
 			// Event listener for Embedded Messaging readiness
 			window.addEventListener("onEmbeddedMessagingReady", e => {
 			    console.log("Embedded Messaging is ready!");
+			    
+			    // Set hidden pre-chat fields using API names with underscores
 			    embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields({
-			        "FirstName": "Inba",
-			        "LastName": "Raj",
-			        "Email": "inba@gmail.com",
-			        "Subject": "Test prechat default values."
+			        "_FirstName": "Inba",  // Use the API names with underscores
+			        "_LastName": "Raj",
+			        "_Email": "inba@gmail.com",
+			        "_Subject": "Test prechat default values."
 			    });
 
 			    console.log("Prechat fields set:", {
-			        "FirstName": "Inba",
-			        "LastName": "Raj",
-			        "Email": "inba@gmail.com",
-			        "Subject": "Test prechat default values."
+			        "_FirstName": "Inba",
+			        "_LastName": "Raj",
+			        "_Email": "inba@gmail.com",
+			        "_Subject": "Test prechat default values."
 			    });
 			});
 			
