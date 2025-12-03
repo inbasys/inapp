@@ -23,14 +23,20 @@
 			        "_FirstName": "Inba",  // Use the API names with underscores
 			        "_LastName": "Raj",
 			        "_Email": "inba@gmail.com",
-			        "_Subject": "Test prechat default values."
+			        "_Subject": "Test prechat default values.",
+					"Client_Type": "Test clienttype",	
+					"FHA_Case_No":"7894561230",
+					"Phone": "7418523698"
 			    });
 
 			    console.log("Prechat fields set:", {
 			        "_FirstName": "Inba",
 			        "_LastName": "Raj",
 			        "_Email": "inba@gmail.com",
-			        "_Subject": "Test prechat default values."
+			        "_Subject": "Test prechat default values.",
+					"Client_Type": "Test clienttype",	
+					"FHA_Case_No":"7894561230",
+					"Phone": "7418523698"
 			    });
 			});
 			
