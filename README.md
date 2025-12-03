@@ -19,7 +19,7 @@
 			    console.log("Embedded Messaging is ready!");
 			    embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields({
 			        "_firstName": "Inba",
-			        "_lastName": "Raj",
+			        "_LastName": "Raj",
 			        "_email": "inba@gmail.com",
 			        "_subject": "Test prechat default values."
 			    });
