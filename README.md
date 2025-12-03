@@ -20,8 +20,8 @@
 			    
 			    // Set hidden pre-chat fields using API names with underscores
 			    embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields({
-			        "FirstName": "Inba",  // Use the API names with underscores
-			        "LastName": "Raj",
+			        "Firstname": "Inba",  // Use the API names with underscores
+			        "Lastname": "Raj",
 			        "Email": "inba@gmail.com",
 			        "Subject": "Test prechat default values.",
 					"Client_Type": "Homebuyer, Homeowner, or Renter",	
