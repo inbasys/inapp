@@ -18,17 +18,17 @@
 			window.addEventListener("onEmbeddedMessagingReady", e => {
 			    console.log("Embedded Messaging is ready!");
 			    embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields({
-			        "_firstName": "Inba",
+			        "_FirstName": "Inba",
 			        "_LastName": "Raj",
-			        "_email": "inba@gmail.com",
-			        "_subject": "Test prechat default values."
+			        "_Email": "inba@gmail.com",
+			        "_Subject": "Test prechat default values."
 			    });
 
 			    console.log("Prechat fields set:", {
-			        "_firstName": "Inba",
-			        "_lastName": "Raj",
-			        "_email": "inba@gmail.com",
-			        "_subject": "Test prechat default values."
+			        "_FirstName": "Inba",
+			        "_LastName": "Raj",
+			        "_Email": "inba@gmail.com",
+			        "_Subject": "Test prechat default values."
 			    });
 			});
 			
